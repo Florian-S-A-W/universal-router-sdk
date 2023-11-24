@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/universal-router-sdk",
-  "version": "2.0.1",
+  "name": "@florian-s-a-w/uniswap-universal-router-sdk",
+  "version": "2.1.0",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -50,11 +50,11 @@
   },
   "dependencies": {
     "@uniswap/permit2-sdk": "^1.2.0",
-    "@uniswap/router-sdk": "^1.6.0",
-    "@uniswap/sdk-core": "^4.0.0",
+    "@uniswap/router-sdk": "npm:@florian-s-a-w/uniswap-router-sdk@^1.7.2",
+    "@uniswap/sdk-core": "npm:@koraykoska/uniswap-sdk-core@^6.0.9",
     "@uniswap/universal-router": "1.5.1",
-    "@uniswap/v2-sdk": "^3.2.0",
-    "@uniswap/v3-sdk": "^3.10.0",
+    "@uniswap/v2-sdk": "npm:@florian-s-a-w/uniswap-v2-sdk@^3.2.4",
+    "@uniswap/v3-sdk": "npm:@florian-s-a-w/uniswap-v3-sdk@^3.15.12",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },
